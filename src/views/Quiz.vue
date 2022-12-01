@@ -9,6 +9,7 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'Quiz',
+  title: 'Aphrodite - Quiz',
 });
 </script>
 
