@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import App from './App.vue';
 import router from './router/index';
 import store from './store/index';
+import './assets/reset.css';
 
 library.add();
 createApp({
