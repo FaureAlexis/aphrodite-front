@@ -6,11 +6,10 @@
         bg-clip-text bg-gradient-to-r to-primary from-purple-600">Aphrodite
         </span>
       </h3>
-      <h1 class="text-right text-6xl mt-4 font-bold text-text">
-        Coit Anal</h1>
+      <h1 class="text-right text-5xl mt-4 font-bold text-text">
+        Journée mondiale<br>contre le SIDA</h1>
       <h4 class="text-right w-96 text-text mt-4 mb-4">
-        <span>Lorem ipsum sucemaququete jaiunegrande bite yo lo patalo eskizo nique
-          la mere a laurent bouno</span>
+        <span>Le SIDA ne se guérit pas encore,<br>pensez à vous protéger</span>
       </h4>
       <div class="flex mt-4">
         <button type="button" class="ml-auto bg-primary text-white p-4 rounded-10
