@@ -6,6 +6,9 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faHome, faQuestion, faQuoteLeft, faMessage,
 } from '@fortawesome/free-solid-svg-icons';
+import {
+  faFacebook, faInstagram, faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import App from './App.vue';
 import router from './router/index';
@@ -13,7 +16,7 @@ import titleMixin from './mixins/titleMixin';
 import store from './store/index';
 import './assets/reset.css';
 
-library.add(faHome, faQuestion, faQuoteLeft, faMessage);
+library.add(faHome, faQuestion, faQuoteLeft, faMessage, faFacebook, faInstagram, faLinkedin);
 createApp({
   extends: App,
   beforeCreate() { this.$store.commit('initialiseStore'); },
