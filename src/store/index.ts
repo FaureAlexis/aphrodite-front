@@ -2,7 +2,7 @@ import { createStore } from 'vuex';
 
 export default createStore({
   state: {
-    BaseUrl: 'http://localhost:3000',
+    BaseUrl: 'https://aphrodite-back.vercel.app',
     isConnected: false,
   },
   mutations: {
