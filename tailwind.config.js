@@ -7,8 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      minHeight: {
+        200: '200px',
+      },
       backgroundImage: {
-        hero: "url('main_bg.webp')",
+        hero: "url('main.webp')",
+        line: "url('line-pattern.svg')",
       },
       borderRadius: {
         10: '10px',
