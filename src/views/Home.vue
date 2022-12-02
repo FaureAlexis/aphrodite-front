@@ -38,10 +38,10 @@
           <h3 class="text-xl text-text text-center">
             Testez vos connaissances sur les risques liés au VIH</h3>
           <div class="bottom-0">
-            <a href="https://www.sida-info-service.org/annuaire/" target="_blank">
+            <router-link to="/quiz">
               <button type="button" class="bg-primary rounded-10
               text-white px-5 py-2 mt-3 hover:opacity-60">Tester mes connaissances</button>
-            </a>
+            </router-link>
           </div>
         </div>
       </Card>
@@ -49,9 +49,9 @@
     <div class="mr-auto ml-24 w-96">
       <Card>
         <div class="flex flex-col items-center justify-center min-h-200">
-          <h3 class="text-xl text-text">Actualités SidAction et +</h3>
+          <h3 class="text-xl text-text">Actualités Sida Info Service</h3>
           <div class="bottom-0">
-            <a href="https://www.sida-info-service.org/annuaire/" target="_blank">
+            <a href="https://www.sida-info-service.org/" target="_blank">
               <button type="button" class="bg-primary rounded-10
               text-white px-5 py-2 mt-3 hover:opacity-60">Je m'informe</button>
             </a>

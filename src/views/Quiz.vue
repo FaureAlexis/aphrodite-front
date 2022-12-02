@@ -1,5 +1,5 @@
 <template>
-  <div id="component-root">
+  <div id="component-root" class="bg-hero_color min-h-screen">
     QUIZ
   </div>
 </template>
