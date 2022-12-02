@@ -18,6 +18,7 @@ module.exports = {
         text: '#461504',
         background: '#FFD9D9',
         background_clear: '#FAAB95',
+        hero_color: '#E0BBD0',
       },
     },
   },
