@@ -21,18 +21,46 @@
     <div class="mr-auto ml-24 mt-64 w-96" id="more">
       <img class="h-96 w-96" src="@/assets/logo.png" alt="logo" />
       <Card>
-        <h2>Dépistage près de chez vous !</h2>
+        <div class="flex flex-col items-center justify-center min-h-200">
+          <h3 class="text-xl text-text">Faites vous dépister près de chez vous</h3>
+          <div class="bottom-0">
+            <a href="https://www.sida-info-service.org/annuaire/" target="_blank">
+              <button type="button" class="bg-primary rounded-10
+              text-white px-5 py-2 mt-3 hover:opacity-60">Trouver un centre</button>
+            </a>
+          </div>
+        </div>
       </Card>
     </div>
     <div class="ml-auto mr-48 mt-14 w-96">
       <Card>
-        <h2>Dépistage près de chez vous !</h2>
+        <div class="flex flex-col items-center justify-center min-h-200">
+          <h3 class="text-xl text-text text-center">
+            Testez vos connaissances sur les risques liés au VIH</h3>
+          <div class="bottom-0">
+            <a href="https://www.sida-info-service.org/annuaire/" target="_blank">
+              <button type="button" class="bg-primary rounded-10
+              text-white px-5 py-2 mt-3 hover:opacity-60">Tester mes connaissances</button>
+            </a>
+          </div>
+        </div>
       </Card>
     </div>
     <div class="mr-auto ml-24 w-96">
       <Card>
-        <h2>Dépistage près de chez vous !</h2>
+        <div class="flex flex-col items-center justify-center min-h-200">
+          <h3 class="text-xl text-text">Actualités SidAction et +</h3>
+          <div class="bottom-0">
+            <a href="https://www.sida-info-service.org/annuaire/" target="_blank">
+              <button type="button" class="bg-primary rounded-10
+              text-white px-5 py-2 mt-3 hover:opacity-60">Je m'informe</button>
+            </a>
+          </div>
+        </div>
       </Card>
+    </div>
+    <div class="ml-auto mr-48 mt-14 w-96">
+      <img class="h-96 w-96" src="@/assets/logo.png" alt="logo" />
     </div>
     <transition name="fade">
     <div id="pagetop" class="fixed right-5 bottom-5 bg-background hover:cursor-pointer
